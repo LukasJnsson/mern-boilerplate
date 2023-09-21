@@ -1,0 +1,5 @@
+{
+  "name": "mern-boilerplatee",
+  "version": "1.0.0",
+  "description": "Boilerplate for MERN application published as npm package with implemented CI with Github Actions"
+}

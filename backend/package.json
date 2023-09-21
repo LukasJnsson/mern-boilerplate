@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "node.js-express-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "NODE_ENV=production node server.js",
+    "dev": "NODE_ENV=development nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "*",
+    "ejs": "*",
+    "express": "*",
+    "mongoose": "*"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*",
+    "nodemon": "*"
+  }
+}
